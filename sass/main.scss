@@ -1,0 +1,189 @@
+
+*{
+	margin:  0;
+	padding: 0;
+}
+
+
+
+.encabezado{	
+	width: 1347px;
+	height: 50px;
+    border: 1px solid #000;
+}
+
+.contenedor-juego{
+	display: inline-block;
+	width: 890px;
+	height: 592px;
+	border: 1px solid #000;
+}
+
+.contenedor-chat{
+    display: inline-block;
+	width: 450px;
+	height: 592px;
+	border: 1px solid #000;
+}
+
+.contenedor-puntajes{
+ width: 694px;
+  height: 55px;
+  position: absolute;
+  top: 260px;
+  left: 76px;
+}
+
+.p-oponente1{
+	border: 1px solid #000;
+  width: 280px;
+  height: 50px;
+  position: absolute;
+  top: -184px;
+  left: 6px;
+  padding: 10px;
+  font-weight: bold;
+
+
+}
+
+.puntaje1{
+
+	border: 1px solid #000;
+  width: 53px;
+  height: 25px;
+  position: absolute;
+  top: 13px;
+  left: 212px;
+  text-align: center;
+  padding-top: 5px;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+
+
+
+.puntaje2{
+
+	 border: 1px solid #000;
+  width: 53px;
+  height: 25px;
+  position: absolute;
+  top: 13px;
+  left: 24px;
+  text-align: center;
+  padding-top: 5px;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+.p-oponente2{
+
+	border: 1px solid #000;
+  width: 280px;
+  height: 50px;
+  position: absolute;
+  top: -186px;
+  left: 397px;
+  text-align: right;
+  padding: 10px;
+  font-weight: bold;
+
+}
+
+.animaciones-oponentes{
+	border: 1px solid #000;
+  width: 689px;
+  height: 292px;
+  position: absolute;
+  top: 168px;
+  left: 82px;
+
+}
+
+.oponente1{
+	
+	background-image: url("../img/ppt.gif");
+	background-size: 273px;
+	background-repeat: no-repeat;
+
+	  border: 1px solid #000;
+  width: 257px;
+  height: 207px;
+  position: absolute;
+  top: 36px;
+  left: 41px;
+
+}
+
+.oponente2{
+	background-image: url("../img/ppt.gif");
+	background-size: 273px;
+	background-repeat: no-repeat;
+	  border: 1px solid #000;
+  width: 257px;
+  height: 207px;
+  position: absolute;
+  top: 33px;
+  left: 380px;
+}
+
+.opciones{
+ border: 1px solid #000;
+  width: 689px;
+  height: 154px;
+  position: absolute;
+  top: 463px;
+  left: 82px;
+
+}
+
+.piedra{
+	background-position: -5px;
+	background-image: url("../img/jankenpon.jpg");
+	background-size: 448px;
+	background-repeat: no-repeat;
+	border: 1px solid #000;
+  width: 138px;
+  height: 137px;
+  position: absolute;
+  top: 6px;
+  left: 82px;
+
+}
+
+.papel{
+	background-image: url("../img/jankenpon.jpg");
+	background-size: 500px;
+	background-position: -180px;
+	background-repeat: no-repeat;
+	  border: 1px solid #000;
+  width: 150px;
+  height: 139px;
+  position: absolute;
+  top: 5px;
+  left: 261px;
+}
+
+.tijera{
+	background-image: url("../img/jankenpon.jpg");
+	background-size: 500px;
+	background-position: -334px;
+	background-repeat: no-repeat;
+	border: 1px solid #000;
+  width: 150px;
+  height: 139px;
+  position: absolute;
+  top: 5px;
+  left: 468px;
+}
+
+.typeo-chat{
+	border: 1px solid #000;
+  width: 449px;
+  height: 139px;
+  position: absolute;
+  top: 504px;
+  left: 897px;
+}
