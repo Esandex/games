@@ -7,56 +7,125 @@ function patito(minimo, maximo)
     var opciones = ["piedra", "papel", "tijera"];
     return opciones[numero];
 }
+    var miContador  = 0;
+    var suContador  = 0;
+    var jugadas     = 0; 
 function procesar(opcion)
 {    
 
     var opcionUsuario = opcion;
-    console.log("La opcion elegida es " + opcionUsuario);
     var opcionMaquina = patito(0,2);
-    console.log("La maquina eligio " + opcionMaquina);
+    
+    jugadas = jugadas + 1;
+    $('#jugadas').text(jugadas);
+
+    $('#miOpcion').attr('src','../img/'+opcionUsuario+'.jpg');
+    $('#opcionOponente').attr('src','../img/oponente_'+opcionMaquina+'.jpg');
+    
+    
     if(opcionUsuario == 'piedra')
     {
         if(opcionMaquina == 'piedra')
         {
-            alert("Empate!");
+            $('#resultado').text("Empate!");
+            $('#resultado').removeClass('ganaste');  
+            $('#resultado').removeClass('perdiste');        
+            $('#resultado').addClass('inicio');
+
         }
         else if(opcionMaquina == 'papel')
         {
-            alert("Perdiste :( ");
+            $('#resultado').text("Perdiste :( ");
+            $('#resultado').removeClass('ganaste');
+            $('#resultado').removeClass('inicio');        
+            $('#resultado').addClass('perdiste');
+                
+            suContador = suContador + 1;
+            console.log('su contador: ' + suContador + ' mi contador: ' + miContador);
+            $('#miContador').text(miContador);
+            $('#suContador').text(suContador);
         }
         else if(opcionMaquina == 'tijera')
         {
-            alert("Ganaste!");
+            $('#resultado').text("Ganaste!");
+            $('#resultado').removeClass('perdiste');
+            $('#resultado').removeClass('inicio');         
+            $('#resultado').addClass('ganaste'); 
+
+            miContador = miContador + 1;
+            console.log('su contador: ' + suContador + ' mi contador: ' + miContador);
+            $('#miContador').text(miContador);
+            $('#suContador').text(suContador);
+
         }
     }
     else if(opcionUsuario == 'papel')
     {
         if(opcionMaquina == 'piedra')
         {
-            alert("Ganaste!");
+            $('#resultado').text("Ganaste!");
+            $('#resultado').removeClass('perdiste'); 
+            $('#resultado').removeClass('inicio');        
+            $('#resultado').addClass('ganaste'); 
+
+            miContador = miContador + 1;
+            console.log('su contador: ' + suContador + ' mi contador: ' + miContador);
+            $('#miContador').text(miContador);
+            $('#suContador').text(suContador);
         }
         else if(opcionMaquina == 'papel')
         {
-            alert("Empate!");
+            $('#resultado').text("Empate!");
+            $('#resultado').removeClass('ganaste');  
+            $('#resultado').removeClass('perdiste');        
+            $('#resultado').addClass('inicio');
         }
         else if(opcionMaquina == 'tijera')
         {
-            alert("Perdiste!");
+            $('#resultado').text("Perdiste :( ");
+            $('#resultado').removeClass('ganaste'); 
+            $('#resultado').removeClass('inicio');        
+            $('#resultado').addClass('perdiste');
+
+            suContador = suContador + 1;
+            console.log('su contador: ' + suContador + ' mi contador: ' + miContador);
+            $('#miContador').text(miContador);
+            $('#suContador').text(suContador);
         }
     }
     else if(opcionUsuario == 'tijera')
     {
         if(opcionMaquina == 'piedra')
         {
-            alert("Perdiste!");
+            $('#resultado').text("Perdiste :( ");
+            $('#resultado').removeClass('ganaste');
+            $('#resultado').removeClass('inicio');         
+            $('#resultado').addClass('perdiste');
+
+            suContador = suContador + 1;
+            console.log('su contador: ' + suContador + ' mi contador: ' + miContador);
+            $('#miContador').text(miContador);
+            $('#suContador').text(suContador);
         }
         else if(opcionMaquina == 'papel')
         {
-            alert("Ganaste!");
+            $('#resultado').text("Ganaste!");
+            $('#resultado').removeClass('perdiste');
+            $('#resultado').removeClass('inicio');         
+            $('#resultado').addClass('ganaste'); 
+
+            miContador = miContador + 1;
+            console.log('su contador: ' + suContador + ' mi contador: ' + miContador);
+            $('#miContador').text(miContador);
+            $('#suContador').text(suContador);
         }
         else if(opcionMaquina == 'tijera')
         {
-            alert("Empate!");
+            $('#resultado').text("Empate!");
+            $('#resultado').removeClass('ganaste');  
+            $('#resultado').removeClass('perdiste');        
+            $('#resultado').addClass('inicio');
+            
         }
     }
     else

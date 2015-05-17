@@ -6,16 +6,18 @@
 	<meta name="HandheldFriendly" content="true" />
 	<title>Jan Ken Pon!</title>
 	<link rel="stylesheet" href="css/main.css">
-   	<script type="text/javascript" src="js/jankenpon.js">  </script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+   	<script type="text/javascript" src="js/jankenpon.js"></script>
 </head>
 <body>
 	<div class="encabezado">
-		ROOM 015
+		GAME <span id="jugadas"></span>
 	</div>
 
 	<div class="contenedor-juego">
 
 		<div class="contenedor-puntajes">
+		<div id="resultado" class="resultado inicio">INICIA EL JUEGO</div>
 		<!--  Yo  -->
 			<div class="yo">
 				<div class="avatar">
@@ -23,25 +25,27 @@
 				</div>	
 				<div class="datos">
 					<div class="nombre">VEGETA</div>
+					<div id="miContador" class="contador miContador">0</div>
 				</div>
 			</div>
 		<!-- Oponente -->
 			<div class="oponente">
+				<div class="datos">
+					<div class="nombre">GOKU</div>
+					<div id="suContador" class="contador suContador">0</div>
+				</div>
 				<div class="avatar">
 					<img src="img/avatares/goku.jpg">
 				</div>	
-				<div class="datos">
-					<div class="nombre">GOKU</div>
-				</div>
 			</div>
 		</div>
  
 		<div class="batalla">
 			<div class="yo">
-				<img src="../img/ppt.gif">
+				<img id="miOpcion" src="../img/ppt.gif">
 			</div>
 			<div class="oponente">
-				<img src="../img/ppt.gif">
+				<img id="opcionOponente" src="../img/ppt.gif">
 			</div>
 		</div>
 
