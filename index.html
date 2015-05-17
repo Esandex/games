@@ -6,7 +6,7 @@
 	<meta name="HandheldFriendly" content="true" />
 	<title>Jan Ken Pon!</title>
 	<link rel="stylesheet" href="css/main.css">
-   <!-- <script type="text/javascript" src="js/jankenpon.js">  </script> -->
+   	<script type="text/javascript" src="js/jankenpon.js">  </script>
 </head>
 <body>
 	<div class="encabezado">
@@ -16,45 +16,45 @@
 	<div class="contenedor-juego">
 
 		<div class="contenedor-puntajes">
-
-			<div class="nombre-oponente1">
-				<img src="img/avatares/vegeta.jpg">
-			</div>	
-			<div class="p-oponente1">
-				VEGETA
-				<div class="puntaje1">
-					1
+		<!--  Yo  -->
+			<div class="yo">
+				<div class="avatar">
+					<img src="img/avatares/vegeta.jpg">
+				</div>	
+				<div class="datos">
+					<div class="nombre">VEGETA</div>
 				</div>
 			</div>
-			
-			<div class="nombre-oponente2">
-				<img src="img/avatares/goku.jpg">
-			</div>	
-			<div class="p-oponente2">
-				GOKU
-				<div class="puntaje2">
-					0
+		<!-- Oponente -->
+			<div class="oponente">
+				<div class="avatar">
+					<img src="img/avatares/goku.jpg">
+				</div>	
+				<div class="datos">
+					<div class="nombre">GOKU</div>
 				</div>
-			</div>	
-			
+			</div>
 		</div>
-
-		<div class="animaciones-oponentes">
-
-			<div class="oponente1"></div>
-			<div class="oponente2"></div>
+ 
+		<div class="batalla">
+			<div class="yo">
+				<img src="../img/ppt.gif">
+			</div>
+			<div class="oponente">
+				<img src="../img/ppt.gif">
+			</div>
 		</div>
 
 
 		<div class="opciones">
-			<div class="piedra"></div>
-			<div class="papel"></div>
-			<div class="tijera"></div>
+			<div class="piedra" onclick="procesar('piedra')"></div>
+			<div class="papel" onclick="procesar('papel')"></div>
+			<div class="tijera" onclick="procesar('tijera')"></div>
 		</div>
 	
 	</div>
 
-
+<!--
 	<div class="contenedor-chat">
 		<div class="formulario">
 			<input type="text" placeholder="Envia un mensaje" class="msm">
@@ -65,7 +65,7 @@
 
 	</div>
 
-	
+	-->
 
 </body>
 </html>
