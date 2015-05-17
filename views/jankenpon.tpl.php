@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<meta name="HandheldFriendly" content="true" />
-	<title>Jan Ken Pon!</title>
-	<link rel="stylesheet" href="css/main.css">
-	<script type="text/javascript" src="js/jquery.js"></script>
-   	<script type="text/javascript" src="js/jankenpon.js"></script>
-</head>
-<body>
+<?php require 'template/inicio.php'; ?>
 	<div class="encabezado">
 		GAME <span id="jugadas"></span>
 	</div>
@@ -70,6 +59,4 @@
 	</div>
 
 	-->
-
-</body>
-</html>
+<?php require 'template/fin.php'; ?>
