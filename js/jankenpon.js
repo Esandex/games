@@ -127,9 +127,18 @@ function procesar(opcion)
             $('#resultado').addClass('inicio');
             
         }
+        
     }
     else
     {
         alert("¿Pos qué carajo?");
+        
     }
+    $('.jugarDnuevo').css('display','block');
+}
+function jugarDeNuevo()
+{
+    $('#miOpcion').attr('src','../img/ppt.gif');
+    $('#opcionOponente').attr('src','../img/ppt.gif');
+    $('.jugarDnuevo').css('display','none');
 }

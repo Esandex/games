@@ -206,7 +206,7 @@ header
 .opciones
 {
   
-  height: 200px;
+  height: 180px;
   text-align: center;
   position: relative;
   div
@@ -219,24 +219,44 @@ header
     display: inline-block;
   }
 
-.jugarDnuevo{
-  color: #fff;
-  margin: 0 auto;
-  opacity: 0.5;
-  text-align: center;
-  font-size: 24px;
-  font-weight: bold;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  bottom: 0;
-  top: 0;
-  right: 0;
-  left: 0; 
-  background-color:rgba(#333,0.8);
-  line-height: 200px;
+  .jugarDnuevo
+  {
+    display: none;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0; 
+    background-color:rgba(#333,0.8);
 
-}
+    .boton
+    {
+      background-color: rgba(#388E3C,0.9);
+      background-image: url('../img/iconos/loop.png');
+      background-position: 5px center;
+      background-repeat: no-repeat;
+      background-size: 32px;
+      border-radius: 5px;
+      bottom: 0;
+      color: #e9e9e9;
+      font-size: 16px;
+      height: 50px;
+      left: 0;
+      line-height: 50px;
+      margin: auto;
+      padding-left: 20px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 175px;
+    }
+  }
 
 
   .piedra
