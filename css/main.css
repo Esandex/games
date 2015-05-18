@@ -174,8 +174,9 @@ header {
 /* line 206, C:/Users/tfbm89/Documents/GitHub/games/sass/main.scss */
 .opciones {
   height: 200px;
-  text-align: center; }
-  /* line 211, C:/Users/tfbm89/Documents/GitHub/games/sass/main.scss */
+  text-align: center;
+  position: relative; }
+  /* line 212, C:/Users/tfbm89/Documents/GitHub/games/sass/main.scss */
   .opciones div {
     width: 32%;
     height: 100%;
@@ -183,7 +184,7 @@ header {
     background-position: center;
     background-size: 100%;
     display: inline-block; }
-  /* line 221, C:/Users/tfbm89/Documents/GitHub/games/sass/main.scss */
+  /* line 222, C:/Users/tfbm89/Documents/GitHub/games/sass/main.scss */
   .opciones .jugarDnuevo {
     color: #fff;
     margin: 0 auto;
@@ -198,18 +199,19 @@ header {
     top: 0;
     right: 0;
     left: 0;
-    background-color: rgba(51, 51, 51, 0.8); }
-  /* line 239, C:/Users/tfbm89/Documents/GitHub/games/sass/main.scss */
+    background-color: rgba(51, 51, 51, 0.8);
+    line-height: 200px; }
+  /* line 242, C:/Users/tfbm89/Documents/GitHub/games/sass/main.scss */
   .opciones .piedra {
     background-image: url("../img/piedra.jpg"); }
-  /* line 243, C:/Users/tfbm89/Documents/GitHub/games/sass/main.scss */
+  /* line 246, C:/Users/tfbm89/Documents/GitHub/games/sass/main.scss */
   .opciones .papel {
     background-image: url("../img/papel.jpg"); }
-  /* line 248, C:/Users/tfbm89/Documents/GitHub/games/sass/main.scss */
+  /* line 251, C:/Users/tfbm89/Documents/GitHub/games/sass/main.scss */
   .opciones .tijera {
     background-image: url("../img/tijera.jpg"); }
 
-/* line 254, C:/Users/tfbm89/Documents/GitHub/games/sass/main.scss */
+/* line 257, C:/Users/tfbm89/Documents/GitHub/games/sass/main.scss */
 .resultado {
   padding: 15px;
   text-align: center;
@@ -218,19 +220,19 @@ header {
   font-size: 20px;
   margin-bottom: 10px; }
 
-/* line 263, C:/Users/tfbm89/Documents/GitHub/games/sass/main.scss */
+/* line 266, C:/Users/tfbm89/Documents/GitHub/games/sass/main.scss */
 .inicio {
   background-color: #2980b9; }
 
-/* line 267, C:/Users/tfbm89/Documents/GitHub/games/sass/main.scss */
+/* line 270, C:/Users/tfbm89/Documents/GitHub/games/sass/main.scss */
 .ganaste {
   background-color: #27ae60; }
 
-/* line 271, C:/Users/tfbm89/Documents/GitHub/games/sass/main.scss */
+/* line 274, C:/Users/tfbm89/Documents/GitHub/games/sass/main.scss */
 .perdiste {
   background-color: #e74c3c; }
 
-/* line 276, C:/Users/tfbm89/Documents/GitHub/games/sass/main.scss */
+/* line 279, C:/Users/tfbm89/Documents/GitHub/games/sass/main.scss */
 .formulario {
   padding: 20px;
   border: 1px solid #000;
@@ -239,14 +241,14 @@ header {
   top: 556px;
   left: 897px; }
 
-/* line 286, C:/Users/tfbm89/Documents/GitHub/games/sass/main.scss */
+/* line 289, C:/Users/tfbm89/Documents/GitHub/games/sass/main.scss */
 .contenedor-chat .formulario input[type="text"] {
   width: 210px;
   height: 30px;
   border: 1px solid #000;
   vertical-align: top; }
 
-/* line 293, C:/Users/tfbm89/Documents/GitHub/games/sass/main.scss */
+/* line 296, C:/Users/tfbm89/Documents/GitHub/games/sass/main.scss */
 .btn_enviar {
   border: 1px solid #000;
   width: 83px;
