@@ -40,6 +40,7 @@
 
 
 		<div class="opciones">
+			<div class="jugarDnuevo">Jugar De nuevo</div>
 			<div class="piedra" onclick="procesar('piedra')"></div>
 			<div class="papel" onclick="procesar('papel')"></div>
 			<div class="tijera" onclick="procesar('tijera')"></div>
