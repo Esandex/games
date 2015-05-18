@@ -22,7 +22,7 @@
 		</a>
 		<div class="titulo">Iniciar Sesión</div>
 		<div id="respuestaLogin" class="cajaDialogo">
-			<!-- <img src="img/loader.gif">-->
+				<img src="img/loader.gif">
 		</div>
 		<form id="formLogIn" method="post">
 			<label>Usuario</label>
