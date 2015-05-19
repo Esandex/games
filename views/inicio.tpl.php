@@ -2,9 +2,9 @@
 
 	<div  class="contenedorOpciones">
 	  <a href="http://games.joseluisrl.com/jankenpon">
-			<div class="img-inicio">
+		
 				<img src="../img/bannerjanken.jpg">
-			</div>
+			
 		
 			<div class="texto">
 				Maquina 1

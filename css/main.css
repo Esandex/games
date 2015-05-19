@@ -361,7 +361,7 @@ header {
     .contenedorOpciones a .img-inicio {
       margin: 0px; }
     /* line 416, C:/Users/tfbm89/Documents/GitHub/games/sass/main.scss */
-    .contenedorOpciones a .img-inicio img {
+    .contenedorOpciones a img {
       width: 248px;
       height: 199px;
       background-size: 486px;
