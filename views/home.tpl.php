@@ -2,7 +2,7 @@
 	
 	<ul class="listaJuegos">
 		<li>
-			<a href="jankenpon">
+			<a href="inicio">
 				<img src="img/bannerjanken.jpg">
 				<h2>JAN KEN PON</h2>
 			</a>
