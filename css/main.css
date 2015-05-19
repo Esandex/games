@@ -346,3 +346,33 @@ header {
   top: 50%;
   width: 280px;
   z-index: 3; }
+
+/*estilos de pagina inicio*/
+/* line 404, C:/Users/tfbm89/Documents/GitHub/games/sass/main.scss */
+.contenedorOpciones {
+  margin: 0 auto;
+  width: 250px;
+  height: 250px;
+  border: 1px solid #000; }
+  /* line 411, C:/Users/tfbm89/Documents/GitHub/games/sass/main.scss */
+  .contenedorOpciones a {
+    text-decoration: none; }
+    /* line 413, C:/Users/tfbm89/Documents/GitHub/games/sass/main.scss */
+    .contenedorOpciones a .img-inicio {
+      margin: 0px; }
+    /* line 416, C:/Users/tfbm89/Documents/GitHub/games/sass/main.scss */
+    .contenedorOpciones a .img-inicio img {
+      width: 248px;
+      height: 199px;
+      background-size: 486px;
+      margin: 0px; }
+    /* line 423, C:/Users/tfbm89/Documents/GitHub/games/sass/main.scss */
+    .contenedorOpciones a .texto {
+      padding: 20px;
+      text-align: center;
+      font-weight: 5px;
+      font-size: 16px;
+      background-color: #8258FA;
+      height: 10px;
+      width: 212px;
+      color: #efefef; }
