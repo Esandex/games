@@ -1,6 +1,6 @@
 *{
-	margin:  0;
-	padding: 0;
+  margin:  0;
+  padding: 0;
 }
 body
 {
@@ -110,7 +110,7 @@ header
   }
 }
 .encabezado
-{	
+{ 
   display: none;
   padding: 20px;
   border: 1px solid #000;
@@ -119,9 +119,9 @@ header
 }
 .contenedor-chat{
     display: inline-block;
-	width: 35%;
-	height: 592px;
-	border: 1px solid #000;
+  width: 35%;
+  height: 592px;
+  border: 1px solid #000;
 }
 
 .contenedor-juego
@@ -264,16 +264,16 @@ header
 
   .piedra
   {
-  	background-image: url("../img/piedra.jpg");
+    background-image: url("../img/piedra.jpg");
   }
   .papel
   {
-  	background-image: url("../img/papel.jpg");
+    background-image: url("../img/papel.jpg");
   }
 
   .tijera
   {
-  	background-image: url("../img/tijera.jpg");
+    background-image: url("../img/tijera.jpg");
   }
 }
 
@@ -301,7 +301,7 @@ header
 
 .formulario{
   padding: 20px;
-	border: 1px solid #000;
+  border: 1px solid #000;
   width: 409px;
   height: 48px;
   top: 556px;
@@ -401,34 +401,41 @@ header
 
   /*estilos de pagina inicio*/
 
-  .contenedorOpciones{
-    margin: 0 auto;
-    width: 250px;
-    height: 250px;
-    border: 1px solid #000;
-   
-   
-    a{ text-decoration: none;
-    
-    .img-inicio{
-      margin: 0px;
-    }
-     img{
-          width: 248px;
-          height: 199px;
-          background-size: 486px;
-          margin: 0px;
-    }
+  .listaSalas
+  {
+    li
+    {
+      display: inline-block;
+      a
+      { 
+        text-decoration: none;
+        display: block;   
+        width: 200px;
+        height: 200px; 
 
-     .texto{ padding: 20px;
-            text-align: center;
-            font-weight: 5px;
-            font-size: 16px;
-            background-color:#8258FA;
-            height: 10px;
-            width: 212px;
-            color: #efefef;}
-     }          
-  }
+        .img-sala
+        {
+          width: 100%;
+          height: 150px;
+          img
+          {
+            width: 100%;
+            height: 100%;
+          }
+        }
 
-
+        .titulo
+        { 
+          text-align: center;
+          font-weight: bolder;
+          font-size: 16px;
+          line-height: 50px;
+          background-color:#8258FA;
+          height: 50px;
+          text-transform: uppercase;
+          width: 100%;
+          color: #efefef;
+        }
+      }          
+    }  
+}
