@@ -14,6 +14,8 @@
 		}
 	</style>
 	<!-- Scripts -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
 	<div class="formularioL">

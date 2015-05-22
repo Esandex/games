@@ -27,7 +27,7 @@ function procesar(opcion)
     {
         if(opcionMaquina == 'piedra')
         {
-            $('#resultado').text("Empate!");
+            $('#resultado span').text("Empate!");
             $('#resultado').removeClass('ganaste');  
             $('#resultado').removeClass('perdiste');        
             $('#resultado').addClass('inicio');
@@ -35,7 +35,7 @@ function procesar(opcion)
         }
         else if(opcionMaquina == 'papel')
         {
-            $('#resultado').text("Perdiste :( ");
+            $('#resultado span').text("Perdiste :( ");
             $('#resultado').removeClass('ganaste');
             $('#resultado').removeClass('inicio');        
             $('#resultado').addClass('perdiste');
@@ -47,7 +47,7 @@ function procesar(opcion)
         }
         else if(opcionMaquina == 'tijera')
         {
-            $('#resultado').text("Ganaste!");
+            $('#resultado span').text("Ganaste!");
             $('#resultado').removeClass('perdiste');
             $('#resultado').removeClass('inicio');         
             $('#resultado').addClass('ganaste'); 
@@ -63,7 +63,7 @@ function procesar(opcion)
     {
         if(opcionMaquina == 'piedra')
         {
-            $('#resultado').text("Ganaste!");
+            $('#resultado span').text("Ganaste!");
             $('#resultado').removeClass('perdiste'); 
             $('#resultado').removeClass('inicio');        
             $('#resultado').addClass('ganaste'); 
@@ -75,14 +75,14 @@ function procesar(opcion)
         }
         else if(opcionMaquina == 'papel')
         {
-            $('#resultado').text("Empate!");
+            $('#resultado span').text("Empate!");
             $('#resultado').removeClass('ganaste');  
             $('#resultado').removeClass('perdiste');        
             $('#resultado').addClass('inicio');
         }
         else if(opcionMaquina == 'tijera')
         {
-            $('#resultado').text("Perdiste :( ");
+            $('#resultado span').text("Perdiste :( ");
             $('#resultado').removeClass('ganaste'); 
             $('#resultado').removeClass('inicio');        
             $('#resultado').addClass('perdiste');
@@ -97,7 +97,7 @@ function procesar(opcion)
     {
         if(opcionMaquina == 'piedra')
         {
-            $('#resultado').text("Perdiste :( ");
+            $('#resultado span').text("Perdiste :( ");
             $('#resultado').removeClass('ganaste');
             $('#resultado').removeClass('inicio');         
             $('#resultado').addClass('perdiste');
@@ -109,7 +109,7 @@ function procesar(opcion)
         }
         else if(opcionMaquina == 'papel')
         {
-            $('#resultado').text("Ganaste!");
+            $('#resultado span').text("Ganaste!");
             $('#resultado').removeClass('perdiste');
             $('#resultado').removeClass('inicio');         
             $('#resultado').addClass('ganaste'); 
@@ -121,7 +121,7 @@ function procesar(opcion)
         }
         else if(opcionMaquina == 'tijera')
         {
-            $('#resultado').text("Empate!");
+            $('#resultado span').text("Empate!");
             $('#resultado').removeClass('ganaste');  
             $('#resultado').removeClass('perdiste');        
             $('#resultado').addClass('inicio');

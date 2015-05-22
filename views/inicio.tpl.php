@@ -7,9 +7,17 @@
 					<img src="../img/bannerjanken.jpg">
 				</div>
 				<div class="titulo">
-					Maquina
+					ESANDEX
 				</div>
 			</a>
 	   </li>
+	</div>
+	<div class="usuarios_conectados">
+		<div class="usuario">
+			<div class="avatar">
+				<img src="">
+			</div>
+			<div class="nombre"></div>
+		</div>
 	</div>
 <?php require 'template/fin.php'; ?>
