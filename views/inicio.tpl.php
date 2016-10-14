@@ -4,7 +4,7 @@
 		<li>
 			<a href="jankenpon">
 				<div class="img-sala">
-					<img src="../img/bannerjanken.jpg">
+					<img src="img/bannerjanken.jpg">
 				</div>
 				<div class="titulo">
 					ESANDEX

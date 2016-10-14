@@ -10,7 +10,7 @@
 		<!--  Yo  -->
 			<div class="yo">
 				<div class="avatar">
-					<img src="http://dev.joseluisrl.com/img/avatares/<?= $du_avatar ?>">
+					<img src="img/person-flat.png">
 				</div>	
 				<div class="datos">
 					<div class="nombre"><?= $username ?></div>
@@ -31,10 +31,10 @@
  
 		<div class="batalla">
 			<div class="yo">
-				<img id="miOpcion" src="../img/ppt.gif">
+				<img id="miOpcion" src="img/ppt.gif">
 			</div>
 			<div class="oponente">
-				<img id="opcionOponente" src="../img/ppt.gif">
+				<img id="opcionOponente" src="img/ppt.gif">
 			</div>
 		</div>
 

@@ -19,8 +19,8 @@ function procesar(opcion)
     jugadas = jugadas + 1;
     $('#jugadas').text(jugadas);
 
-    $('#miOpcion').attr('src','../img/'+opcionUsuario+'.jpg');
-    $('#opcionOponente').attr('src','../img/oponente_'+opcionMaquina+'.jpg');
+    $('#miOpcion').attr('src','img/'+opcionUsuario+'.jpg');
+    $('#opcionOponente').attr('src','img/oponente_'+opcionMaquina+'.jpg');
     
     
     if(opcionUsuario == 'piedra')
@@ -138,7 +138,7 @@ function procesar(opcion)
 }
 function jugarDeNuevo()
 {
-    $('#miOpcion').attr('src','../img/ppt.gif');
-    $('#opcionOponente').attr('src','../img/ppt.gif');
+    $('#miOpcion').attr('src','img/ppt.gif');
+    $('#opcionOponente').attr('src','img/ppt.gif');
     $('.jugarDnuevo').css('display','none');
 }
